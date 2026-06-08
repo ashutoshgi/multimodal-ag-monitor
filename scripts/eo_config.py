@@ -67,7 +67,8 @@ FIELD_ROOT = str(Path(FIELD_SHP).expanduser().resolve().parent)
 # time-series extraction. Leave blank/null/None to process the full field.
 APPLY_CROP_MASK = bool(_cfg(["mask", "apply_crop_mask"], False))
 CROP_MASK_SHP = _cfg(["mask", "crop_mask_shapefile"], None)
-if CROP_MASK_SHP in ("", "null", "None"):
+
+if CROP_MASK_SHP in [None, "", "null", "None"]:
     CROP_MASK_SHP = None
 else:
     CROP_MASK_SHP = str(Path(CROP_MASK_SHP).expanduser())
