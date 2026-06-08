@@ -6,8 +6,6 @@ Created on Wed Mar 18 10:21:11 2026
 @author: ashutosh
 """
 
-#Hare Krishna
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
