@@ -16,10 +16,7 @@ Outputs:
     - NDVI: original kept obs, cleaned NDVI, QC-corrected points, zone mean overlay
     - SAVI/NDWI/NDRE: kept obs and zone mean overlay
 
-Hare Krishna
 """
-
-#Hare Krishna
 
 import os
 import glob
@@ -28,10 +25,6 @@ import matplotlib.pyplot as plt
 
 # ---------------- SETTINGS ----------------
 
-#Hare Krishna
-#Hare Krishna
-#Hare Krishna
-#Hare Krishna
 
 clean_folder = os.path.join(OUTPUT_DIR, "Sentinel2", "per_polygon_time_series", "cleaned_per_polygon_csv")
 
