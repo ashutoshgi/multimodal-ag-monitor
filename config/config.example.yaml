@@ -1,0 +1,53 @@
+# Example configuration for the multimodal EO time-series workflow.
+# Copy this file to config/config.yaml and edit the paths before running scripts.
+
+project:
+  field_name: "Example_Field"
+  field_shapefile: "/absolute/path/to/field_shapefile.shp"
+  output_dir: "/absolute/path/to/output/Satellite_Data"
+
+# Optional crop mask. If apply_crop_mask is true, p01 uses the intersection of
+# field_shapefile and crop_mask_shapefile for downloads and zonal time series.
+mask:
+  apply_crop_mask: false
+  crop_mask_shapefile: null
+
+gee:
+  # Google Earth Engine project ID. Use null if your Earth Engine account does not require a project.
+  project: "your-earth-engine-project-id"
+
+season:
+  start_year: 2020
+  end_year: null       # null = current year
+  start_month: 3
+  start_day: 1
+  end_month: 10
+  end_day: 30
+
+sentinel2:
+  step_days: 5
+  main_cloud_filter: 40
+  fallback_cloud_filter: 95
+  run_selection_and_download: true
+  run_polygon_timeseries: true
+  inner_buffer_meters: null
+
+sentinel1:
+  step_days: 5
+  orbit: null          # null, ASCENDING, or DESCENDING
+  run_download: true
+
+weather:
+  start_year: 2000
+  end_year: null       # null = current year
+  gridmet_buffer_m: 5000
+  chirps_buffer_m: 6000
+  era5_buffer_m: 12000
+
+landsat:
+  start_year: 1984
+  end_year: null       # null = current year
+  download_images: false
+
+plotting:
+  dpi: 300

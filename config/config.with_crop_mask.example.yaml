@@ -1,0 +1,50 @@
+# Example configuration when you have both a field boundary and a crop mask.
+# Copy to config/config.yaml and edit paths.
+
+project:
+  field_name: "Example_Field_Masked"
+  field_shapefile: "/absolute/path/to/field_shapefile.shp"
+  output_dir: "/absolute/path/to/output/Satellite_Data"
+
+mask:
+  apply_crop_mask: true
+  crop_mask_shapefile: "/absolute/path/to/crop_mask.shp"
+
+gee:
+  project: "your-earth-engine-project-id"
+
+season:
+  start_year: 2020
+  end_year: null
+  start_month: 3
+  start_day: 1
+  end_month: 10
+  end_day: 30
+
+sentinel2:
+  step_days: 5
+  main_cloud_filter: 40
+  fallback_cloud_filter: 95
+  run_selection_and_download: true
+  run_polygon_timeseries: true
+  inner_buffer_meters: null
+
+sentinel1:
+  step_days: 5
+  orbit: null
+  run_download: true
+
+weather:
+  start_year: 2000
+  end_year: null
+  gridmet_buffer_m: 5000
+  chirps_buffer_m: 6000
+  era5_buffer_m: 12000
+
+landsat:
+  start_year: 1984
+  end_year: null
+  download_images: false
+
+plotting:
+  dpi: 300

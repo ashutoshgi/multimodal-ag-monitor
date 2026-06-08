@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Multimodal EO Time-Series Workflow for Crop Monitoring"
+authors:
+  - family-names: "Tiwari"
+    given-names: "Ashutosh"
+version: "0.1.0"
+date-released: "2026-06-08"
+repository-code: "https://github.com/ashutoshgi/multimodal-eo-timeseries"
+license: "MIT"
+abstract: "A configurable Python and Google Earth Engine workflow for downloading and processing field-scale multimodal Earth observation time series for crop monitoring."
+keywords:
+  - remote sensing
+  - crop monitoring
+  - Sentinel-2
+  - Sentinel-1
+  - Landsat
+  - Google Earth Engine
+  - time series

@@ -1,0 +1,19 @@
+name: multimodal-eo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - earthengine-api
+  - geopandas
+  - rasterio
+  - fiona
+  - pyogrio
+  - shapely
+  - pyproj
+  - pandas
+  - numpy
+  - matplotlib
+  - scipy
+  - pyyaml
+  - requests
+  - pip
