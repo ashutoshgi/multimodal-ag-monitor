@@ -156,12 +156,11 @@ This creates `field_shapefile.shp` files that can be used with this repository.
 If you use this repository in research, teaching, reports, or derived workflows, please cite it. See `CITATION.cff` and the citation section below.
 
 ```text
-Tiwari, A. (2026). Multimodal EO Time-Series Workflow for Crop Monitoring. GitHub repository.
+Please cite the following if using the application:
+
+Ashutosh Tiwari A, Mahendra Bhandari, Shweta Panjwani, Reshmi Sarkar, Rahul Raman, Sk Musfiq Us Salehin, Ram Ray, Mahendra Bhandari, Gurjindar Baath, Nithya Rajan, 2026. Multimodal EO Time-Series Workflow for Crop Monitoring. GitHub repository.
+
 ```
-
-After the first public release, you can archive the repository with Zenodo and add the DOI here.
-
----
 
 ## License
 
