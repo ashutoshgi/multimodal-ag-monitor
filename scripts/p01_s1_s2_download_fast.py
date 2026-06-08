@@ -6,12 +6,8 @@ Created on Fri Apr 17 14:33:54 2026
 @author: ashutosh
 """
 
-#Hare Krishna
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
-# Hare Krishna
 
 """
 Faster streaming p01 for {FIELD_NAME}.
