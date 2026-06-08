@@ -1,8 +1,6 @@
 # Multimodal EO Time-Series Workflow for Crop Monitoring
 
-Developed by **Ashutosh Tiwari**.
-
-This repository provides a configurable Python and Google Earth Engine workflow for downloading, cleaning, and plotting field-scale multimodal Earth observation time series for crop monitoring. A user supplies a field boundary shapefile, and the workflow generates Sentinel-2 vegetation-index time series, Sentinel-1 SAR backscatter time series, Landsat NDVI, and gridded weather variables for crop-growth analysis and AI-ready feature generation.
+This repository provides a configurable Python and Google Earth Engine workflow for downloading, cleaning, and plotting field-scale multimodal Earth observation time series for crop monitoring. A user supplies a field boundary shapefile, and the workflow generates Sentinel-2 vegetation-index time series, Sentinel-1 SAR backscatter time series, Landsat NDVI, and gridded weather variables for crop-growth analysis.
 
 The workflow is intended for agricultural remote sensing, crop growth modeling, in-season monitoring, and downstream machine learning or deep learning applications.
 
