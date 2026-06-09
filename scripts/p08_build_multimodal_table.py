@@ -6,8 +6,6 @@ Created on Thu Mar 19 10:19:36 2026
 @author: ashutosh
 """
 
-#Hare Krishna
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -23,7 +21,6 @@ Merges:
 Output:
 - one combined multimodal CSV
 
-Hare Krishna
 """
 
 import os
@@ -34,10 +31,6 @@ from eo_config import OUTPUT_DIR, FIELD_NAME, EE_PROJECT, cleaned_shapefile_path
 # =====================================================
 # USER SETTINGS
 # =====================================================
-#Hare Krishna
-#Hare Krishna
-#Hare Krishna
-#Hare Krishna
 
 BASE = OUTPUT_DIR
 
