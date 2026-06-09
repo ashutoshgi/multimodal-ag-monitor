@@ -1,4 +1,3 @@
-#Hare Krishna
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -15,7 +14,6 @@ Panels:
 3. Sentinel-1 selectable indicator (raw points + smoothed line)
 4. ET and VPD (7-day smoothed)
 
-Hare Krishna
 """
 
 import os
@@ -27,10 +25,6 @@ from eo_config import OUTPUT_DIR, FIELD_NAME, EE_PROJECT, cleaned_shapefile_path
 # =====================================================
 # USER SETTINGS
 # =====================================================
-#Hare Krishna
-#Hare Krishna
-#Hare Krishna
-#Hare Krishna
 
 BASE = OUTPUT_DIR
 
