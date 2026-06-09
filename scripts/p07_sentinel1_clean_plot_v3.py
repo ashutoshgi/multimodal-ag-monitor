@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Hare Krishna
-
 p07 Sentinel-1 cleaning and plotting for {FIELD_NAME}.
 
 Purpose
