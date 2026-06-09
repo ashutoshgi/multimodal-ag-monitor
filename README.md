@@ -168,6 +168,3 @@ This repository is released under the MIT License. See `LICENSE`.
 
 ---
 
-## Disclaimer
-
-This workflow depends on Google Earth Engine data availability and user account permissions. Outputs should be quality checked before use in publications, operational decision-making, or AI model training.
