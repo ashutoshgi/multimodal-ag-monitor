@@ -9,9 +9,8 @@ Input:
 Output:
     cleaned per-polygon CSVs + combined cleaned CSV
 
-Hare Krishna
+
 """
-#Hare Krishna
 
 import os
 import numpy as np
@@ -22,10 +21,6 @@ from eo_config import OUTPUT_DIR, FIELD_NAME, EE_PROJECT, cleaned_shapefile_path
 # =====================================================
 # SETTINGS
 # =====================================================
-#Hare Krishna
-#Hare Krishna
-#Hare Krishna
-#Hare Krishna
 
 base_folder = os.path.join(OUTPUT_DIR, "Landsat", "per_polygon_time_series")
 input_csv = os.path.join(base_folder, "all_polygons_landsat_ndvi.csv")
