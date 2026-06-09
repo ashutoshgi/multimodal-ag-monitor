@@ -6,8 +6,6 @@ Created on Wed Mar 18 11:57:34 2026
 @author: ashutosh
 """
 
-#Hare Krishna
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -18,7 +16,6 @@ using only dates retained after NDVI outlier cleaning.
 Output:
     one spaghetti plot per zone per year
 
-Hare Krishna
 """
 
 import os
