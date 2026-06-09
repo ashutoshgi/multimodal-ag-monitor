@@ -12,9 +12,8 @@ Workflow:
 6) Download selected images (multiband reflectance)
 7) Compute mean NDVI per polygon and save combined CSV + per-polygon CSVs
 
-Hare Krishna
 """
-#Hare Krishna
+
 
 import os
 import json
