@@ -1,9 +1,7 @@
-#Hare Krishna
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Hare Krishna
 
 """
 Extract daily weather/environment time series by cleaned zone polygons.
@@ -21,7 +19,6 @@ Key improvement in this version:
 - uses buffered geometry for coarse weather datasets so small farm polygons
   still return valid values
 
-Hare Krishna
 """
 
 import os
