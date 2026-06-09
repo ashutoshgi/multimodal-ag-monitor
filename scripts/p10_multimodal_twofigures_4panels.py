@@ -6,9 +6,6 @@ Created on Thu Mar 19 12:11:10 2026
 @author: ashutosh
 """
 
-#Hare Krishna
-#Hare Krishna
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -32,7 +29,6 @@ Inputs:
 - full daily weather CSV
 - full cleaned Sentinel-1 CSV
 
-Hare Krishna
 """
 
 import os
@@ -45,10 +41,6 @@ from eo_config import OUTPUT_DIR, FIELD_NAME, EE_PROJECT, cleaned_shapefile_path
 # =====================================================
 # USER SETTINGS
 # =====================================================
-#Hare Krishna
-#Hare Krishna
-#Hare Krishna
-#Hare Krishna
 
 BASE = OUTPUT_DIR
 
