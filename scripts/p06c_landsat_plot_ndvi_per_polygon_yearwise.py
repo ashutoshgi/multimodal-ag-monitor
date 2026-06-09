@@ -3,21 +3,13 @@
 """
 Plot yearly Landsat NDVI time series for each polygon from cleaned CSV files.
 No crop-window shading.
-
-Hare Krishna
 """
-
-#Hare Krishna
 
 import os
 import glob
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#Hare Krishna
-#Hare Krishna
-#Hare Krishna
-#Hare Krishna
 
 clean_folder = os.path.join(OUTPUT_DIR, "Landsat", "per_polygon_time_series", "cleaned_per_polygon_csv")
 
