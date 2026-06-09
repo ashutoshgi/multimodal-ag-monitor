@@ -23,7 +23,6 @@ Indicators saved:
 - VV_plus_VH_mean_dB
 - orbit pass / orbit number / platform
 
-Hare Krishna
 """
 
 import os
